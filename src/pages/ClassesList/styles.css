@@ -1,0 +1,23 @@
+#page-list-classes {
+    width: 100vw;
+    height: 100vh;
+}
+
+@media(min-width: 700px){
+    #page-list-classes {
+        max-width: 100%;
+    }
+
+    #page-list-classes main .classes-item{
+        background: var(--color-box-base);
+        border-radius: 0.8rem;
+        margin: -6.4rem auto 3.2rem;
+        overflow: hidden;
+    }
+
+    #page-list-classes main {
+        padding: 3.2rem 0;
+        max-width: 740px;
+        margin: 0 auto;
+    }
+}
